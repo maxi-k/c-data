@@ -5,7 +5,7 @@ OBJ = $(SRC:%.c=%.o)
 
 
 prog: $(OBJ)
-	$(CC) -o prog $(OBJ)
+	$(CC) -o prog.prog $(OBJ)
 
 %.o: %.c
 	$(CC) -c $<
