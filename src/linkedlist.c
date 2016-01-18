@@ -53,7 +53,6 @@ void llprint(LINKED_LIST list)
   puts(")");
 }
 
-
 int lleq(LINKED_LIST list1, LINKED_LIST list2)
 {
   if (list1 == NULL && list2 == NULL)
